@@ -13,6 +13,15 @@ $(document).ready(function() {
 
     // Save input to local storage
     localStorage.setitem(timeInput, textInput);
-    
+
     })
+
+    function timeKeeper() {
+        
+        var timeNow = moment().hour();
+        $(".timeBlock").each(function() {
+            var blockedTime = parseInt($(this).attr('id').split('hour')[1]);
+
+        })
+    }
 })
