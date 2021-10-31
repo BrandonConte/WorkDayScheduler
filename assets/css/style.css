@@ -70,6 +70,10 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+.save:hover {
+  cursor: pointer;
+}
+
 /*** OVERWRITE - MEDIA QUERY FOR TABLETS AND SMALLER  ***/
 /* This will be applied on any screen 768px and bellow */
 @media screen and (max-width: 768px), screen and (max-width: 575px) {
